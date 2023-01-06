@@ -1,0 +1,11 @@
+{
+  "name": "pubsub",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch index.ts"
+  },
+  "dependencies": {
+    "aedes": "^0.48.1"
+  }
+}

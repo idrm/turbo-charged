@@ -1,0 +1,58 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/css": "^11.10.5",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/inter": "^4.5.14",
+    "@radix-ui/colors": "^0.1.8",
+    "@radix-ui/react-icons": "^1.1.1",
+    "@radix-ui/react-scroll-area": "^1.0.2",
+    "@radix-ui/react-slider": "^1.1.0",
+    "@radix-ui/react-switch": "^1.0.1",
+    "@radix-ui/react-toggle-group": "^1.0.1",
+    "@tanstack/react-query": "^4.20.4",
+    "@trpc/client": "^10.7.0",
+    "@trpc/react-query": "^10.7.0",
+    "core-frontend": "*",
+    "frontend-routing": "*",
+    "frontend-trpc": "*",
+    "post-frontend": "*",
+    "react": "^18.2.0",
+    "react-charts": "^3.0.0-beta.51",
+    "react-dom": "^18.2.0",
+    "ui": "*",
+    "user-frontend": "*"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.20.7",
+    "@emotion/babel-plugin-jsx-pragmatic": "^0.2.0",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.0.0",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-twin": "^1.1.0",
+    "eslint": "8.30.0",
+    "eslint-config-custom": "*",
+    "rollup-plugin-visualizer": "^5.9.0",
+    "tailwindcss": "^3.2.4",
+    "tsconfig": "*",
+    "twin.macro": "^3.1.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  },
+  "babelMacros": {
+    "twin": {
+      "config": "./../../tailwind.config.js",
+      "preset": "emotion"
+    }
+  }
+}

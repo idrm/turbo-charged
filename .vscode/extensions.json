@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "lightyen.tailwindcss-intellisense-twin",
+    "prisma.prisma",
+    "mrmlnc.vscode-duplicate",
+    "davidanson.vscode-markdownlint",
+    "vscode-icons-team.vscode-icons",
+    "davidanson.vscode-markdownlint"
+  ]
+}

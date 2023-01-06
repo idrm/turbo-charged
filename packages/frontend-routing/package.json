@@ -1,0 +1,18 @@
+{
+  "name": "frontend-routing",
+  "main": "./src/index.tsx",
+  "types": "./src/index.tsx",
+  "scripts": {
+    "lint": "TIMING=1 eslint \"**/*.ts*\""
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^0.0.1-beta.38",
+    "typescript": "^4.9.4",
+    "ui": "*",
+    "core-frontend-lib": "*"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "tsconfig": "*"
+  }
+}

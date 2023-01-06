@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "ES2015"],
+    "jsxImportSource": "@emotion/react"
+  },
+  "extends": "tsconfig/react-library.json",
+  "include": ["./src", "types"],
+  "exclude": ["dist", "build", "node_modules"]
+}
